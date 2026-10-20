@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olive &amp; Ember Menu</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 0; background: #faf6ef; color: #2b2b2b; }
+    header, footer { background: #3b4a2f; color: #faf6ef; text-align: center; padding: 1.5rem 1rem; }
+    header p { margin: 0.25rem 0 0; font-style: italic; }
+    main { max-width: 900px; margin: 0 auto; padding: 1.5rem 1rem; }
+    table { width: 100%; border-collapse: collapse; background: #fff; }
+    caption { text-align: left; font-size: 1.25rem; padding: 0.5rem 0; }
+    th, td { border: 1px solid #d9d2c3; padding: 0.6rem; text-align: left; vertical-align: middle; }
+    thead th { background: #e8dfcc; }
+    tbody th[colspan] { background: #f1ead9; font-size: 1.1rem; }
+    td img { width: 100px; height: 75px; object-fit: cover; display: block; }
+    td:last-child { white-space: nowrap; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Olive &amp; Ember</h1>
+    <p>Mediterranean cooking from a wood-fired kitchen</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Our Menu</h2>
+
+      <table>
+        <caption>Menu items and prices (USD)</caption>
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Dish Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th colspan="4" scope="colgroup">Appetizers</th>
+          </tr>
+          <tr>
+            <td><img src="images/bruschetta.jpg" alt="Toasted bread topped with tomatoes, basil and olive oil" width="100" height="75"></td>
+            <td>Tomato Bruschetta</td>
+            <td>Grilled sourdough, ripe tomatoes, basil and extra virgin olive oil.</td>
+            <td>$8.50</td>
+          </tr>
+          <tr>
+            <td>&mdash;</td>
+            <td>Crispy Calamari</td>
+            <td>Lightly fried squid served with lemon aioli.</td>
+            <td>$11.00</td>
+          </tr>
+          <tr>
+            <td>&mdash;</td>
+            <td>Hummus Plate</td>
+            <td>Creamy chickpea hummus with warm pita and roasted peppers.</td>
+            <td>$7.50</td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th colspan="4" scope="colgroup">Main Courses</th>
+          </tr>
+          <tr>
+            <td><img src="images/salmon.jpg" alt="Grilled salmon fillet with lemon and roasted vegetables" width="100" height="75"></td>
+            <td>Grilled Salmon</td>
+            <td>Wood-grilled fillet with lemon butter and seasonal vegetables.</td>
+            <td>$22.00</td>
+          </tr>
+          <tr>
+            <td>&mdash;</td>
+            <td>Lamb Kofta</td>
+            <td>Spiced lamb skewers with herbed rice and yogurt sauce.</td>
+            <td>$19.50</td>
+          </tr>
+          <tr>
+            <td>&mdash;</td>
+            <td>Wild Mushroom Risotto</td>
+            <td>Creamy arborio rice with mushrooms, parmesan and thyme.</td>
+            <td>$17.00</td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th colspan="4" scope="colgroup">Desserts</th>
+          </tr>
+          <tr>
+            <td><img src="images/baklava.jpg" alt="Squares of honey-soaked baklava with crushed pistachios" width="100" height="75"></td>
+            <td>Pistachio Baklava</td>
+            <td>Flaky layers of phyllo, pistachios and orange blossom honey.</td>
+            <td>$7.00</td>
+          </tr>
+          <tr>
+            <td>&mdash;</td>
+            <td>Lemon Olive Oil Cake</td>
+            <td>Moist citrus cake with whipped mascarpone.</td>
+            <td>$6.50</td>
+          </tr>
+          <tr>
+            <td>&mdash;</td>
+            <td>Chocolate Pot de Crème</td>
+            <td>Dark chocolate custard with sea salt and fresh berries.</td>
+            <td>$7.50</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Olive &amp; Ember &middot; 12 Garden Street &middot; Open daily 11am&ndash;10pm</p>
+  </footer>
+
+</body>
+</html>
